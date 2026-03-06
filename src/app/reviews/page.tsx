@@ -71,7 +71,7 @@ export default function ReviewsPage() {
           description="John Martinez"
           subdescription="Homeowner, Hunt County"
           icon={Award}
-          imageSrc="http://img.b2bpic.net/free-photo/smiling-businessman-standing-airport_107420-85035.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/smiling-businessman-standing-airport_107420-85035.jpg?_wi=3"
           imageAlt="John Martinez customer review"
           mediaAnimation="slide-up"
           useInvertedBackground={false}
