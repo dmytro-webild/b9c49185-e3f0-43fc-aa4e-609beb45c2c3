@@ -155,12 +155,12 @@ export default function HomePage() {
           tagIcon={Phone}
           tagAnimation="slide-up"
           title="Call for Your Free Estimate"
-          description="No hidden fees. No surprises. Just honest, reliable plumbing service. Contact us today for a free consultation."
+          description="Need plumbing help? Call Dynamite Plumbing now at 469-410-2657. Available 24/7 for emergencies. No hidden fees, no surprises."
           background={{ variant: "radial-gradient" }}
           useInvertedBackground={false}
           buttonText="Call: 469-410-2657"
-          inputPlaceholder="Your phone number"
-          termsText="We respect your privacy and will never share your information."
+          inputPlaceholder="469-410-2657"
+          termsText="For urgent issues, call us immediately. We're standing by to help."
         />
       </div>
 
