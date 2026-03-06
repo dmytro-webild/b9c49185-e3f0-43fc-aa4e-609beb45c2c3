@@ -91,7 +91,7 @@ export default function ContactPage() {
               author: "24/7 Available",
               description: "Call us anytime for emergency plumbing issues, quick questions, or to schedule a service appointment. We respond quickly to all calls.",
               tags: ["Emergency", "24/7"],
-              imageSrc: "http://img.b2bpic.net/free-photo/smiling-businessman-standing-airport_107420-85035.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/smiling-businessman-standing-airport_107420-85035.jpg?_wi=2",
               imageAlt: "Customer service representative",
             },
             {
@@ -100,7 +100,7 @@ export default function ContactPage() {
               author: "Hunt County",
               description: "We serve all of Hunt County with professional plumbing service. Our team is locally based and familiar with the area's specific needs.",
               tags: ["Local", "Trusted"],
-              imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-business-office-business-center_1303-20365.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-business-office-business-center_1303-20365.jpg?_wi=2",
               imageAlt: "Local service area map",
             },
           ]}
