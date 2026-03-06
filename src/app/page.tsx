@@ -82,7 +82,7 @@ export default function HomePage() {
               handle: "Homeowner",
               testimonial: "Outstanding service! They arrived on time and fixed the issue quickly. Fair pricing, no surprises.",
               rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/smiling-businessman-standing-airport_107420-85035.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/smiling-businessman-standing-airport_107420-85035.jpg?_wi=1",
               imageAlt: "John Martinez - Happy Customer",
             },
             {
@@ -90,7 +90,7 @@ export default function HomePage() {
               handle: "Property Manager",
               testimonial: "Best plumbers in Hunt County. Reliable, honest, and professional. We use them for all our properties.",
               rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-business-office-business-center_1303-20365.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-business-office-business-center_1303-20365.jpg?_wi=1",
               imageAlt: "Sarah Johnson - Property Manager",
             },
             {
@@ -141,7 +141,7 @@ export default function HomePage() {
               author: "Safety First",
               description: "Full licensing and comprehensive insurance coverage protects your home and investment.",
               tags: ["Professional", "Certified"],
-              imageSrc: "http://img.b2bpic.net/free-photo/close-up-smiley-lawyer-holding-contract_23-2148230817.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/close-up-smiley-lawyer-holding-contract_23-2148230817.jpg?_wi=1",
               imageAlt: "Licensed and insured certification",
             },
             {
@@ -150,7 +150,7 @@ export default function HomePage() {
               author: "24/7 Support",
               description: "Burst pipes, gas leaks, or backed-up drains? We're here 24/7 for emergencies.",
               tags: ["Quick Response", "Reliable"],
-              imageSrc: "http://img.b2bpic.net/free-photo/man-fixing-kitchen-sink_53876-13430.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/man-fixing-kitchen-sink_53876-13430.jpg?_wi=1",
               imageAlt: "Emergency plumbing repair in progress",
             },
           ]}
