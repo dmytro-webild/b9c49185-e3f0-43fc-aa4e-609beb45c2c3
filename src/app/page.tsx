@@ -22,24 +22,21 @@ export default function HomePage() {
 
   const footerColumns = [
     {
-      title: "Navigate",
-      items: [
+      title: "Navigate",      items: [
         { label: "Home", href: "/" },
         { label: "Services", href: "/services" },
         { label: "Reviews", href: "/reviews" },
       ],
     },
     {
-      title: "Services",
-      items: [
+      title: "Services",      items: [
         { label: "Plumbing Repairs", href: "/services" },
         { label: "Gas Line Installation", href: "/services" },
         { label: "Rental Property Plumbing", href: "/services" },
       ],
     },
     {
-      title: "Contact",
-      items: [
+      title: "Contact",      items: [
         { label: "Call: 469-410-2657", href: "tel:469-410-2657" },
         { label: "Service Area Map", href: "/contact" },
         { label: "Get Free Estimate", href: "/contact" },
@@ -71,6 +68,7 @@ export default function HomePage() {
           tag="Locally Owned & Operated"
           tagIcon={Shield}
           tagAnimation="slide-up"
+          background={{ variant: "radial-gradient" }}
           buttons={[
             { text: "Call Now: 469-410-2657", href: "tel:469-410-2657" },
             { text: "Request Free Estimate", href: "/contact" },
@@ -78,29 +76,14 @@ export default function HomePage() {
           buttonAnimation="slide-up"
           testimonials={[
             {
-              name: "John Martinez",
-              handle: "Homeowner",
-              testimonial: "Outstanding service! They arrived on time and fixed the issue quickly. Fair pricing, no surprises.",
-              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/smiling-businessman-standing-airport_107420-85035.jpg?_wi=1",
-              imageAlt: "John Martinez - Happy Customer",
-            },
+              name: "John Martinez",              handle: "Homeowner",              testimonial: "Outstanding service! They arrived on time and fixed the issue quickly. Fair pricing, no surprises.",              rating: 5,
+              imageSrc: "http://img.b2bpic.net/free-photo/smiling-businessman-standing-airport_107420-85035.jpg",              imageAlt: "John Martinez - Happy Customer"},
             {
-              name: "Sarah Johnson",
-              handle: "Property Manager",
-              testimonial: "Best plumbers in Hunt County. Reliable, honest, and professional. We use them for all our properties.",
-              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-business-office-business-center_1303-20365.jpg?_wi=1",
-              imageAlt: "Sarah Johnson - Property Manager",
-            },
+              name: "Sarah Johnson",              handle: "Property Manager",              testimonial: "Best plumbers in Hunt County. Reliable, honest, and professional. We use them for all our properties.",              rating: 5,
+              imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-business-office-business-center_1303-20365.jpg",              imageAlt: "Sarah Johnson - Property Manager"},
             {
-              name: "Michael Chen",
-              handle: "Small Business Owner",
-              testimonial: "Fast emergency response saved our business during peak hours. Highly recommend Dynamite Plumbing.",
-              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg",
-              imageAlt: "Michael Chen - Business Owner",
-            },
+              name: "Michael Chen",              handle: "Small Business Owner",              testimonial: "Fast emergency response saved our business during peak hours. Highly recommend Dynamite Plumbing.",              rating: 5,
+              imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg",              imageAlt: "Michael Chen - Business Owner"},
           ]}
           testimonialRotationInterval={5000}
           imagePosition="right"
@@ -136,23 +119,11 @@ export default function HomePage() {
           tagAnimation="slide-up"
           features={[
             {
-              id: "1",
-              title: "Licensed & Insured",
-              author: "Safety First",
-              description: "Full licensing and comprehensive insurance coverage protects your home and investment.",
-              tags: ["Professional", "Certified"],
-              imageSrc: "http://img.b2bpic.net/free-photo/close-up-smiley-lawyer-holding-contract_23-2148230817.jpg?_wi=1",
-              imageAlt: "Licensed and insured certification",
-            },
+              id: "1",              title: "Licensed & Insured",              author: "Safety First",              description: "Full licensing and comprehensive insurance coverage protects your home and investment.",              tags: ["Professional", "Certified"],
+              imageSrc: "http://img.b2bpic.net/free-photo/close-up-smiley-lawyer-holding-contract_23-2148230817.jpg",              imageAlt: "Licensed and insured certification"},
             {
-              id: "2",
-              title: "Emergency Service Available",
-              author: "24/7 Support",
-              description: "Burst pipes, gas leaks, or backed-up drains? We're here 24/7 for emergencies.",
-              tags: ["Quick Response", "Reliable"],
-              imageSrc: "http://img.b2bpic.net/free-photo/man-fixing-kitchen-sink_53876-13430.jpg?_wi=1",
-              imageAlt: "Emergency plumbing repair in progress",
-            },
+              id: "2",              title: "Emergency Service Available",              author: "24/7 Support",              description: "Burst pipes, gas leaks, or backed-up drains? We're here 24/7 for emergencies.",              tags: ["Quick Response", "Reliable"],
+              imageSrc: "http://img.b2bpic.net/free-photo/man-fixing-kitchen-sink_53876-13430.jpg",              imageAlt: "Emergency plumbing repair in progress"},
           ]}
           animationType="slide-up"
           textboxLayout="default"
