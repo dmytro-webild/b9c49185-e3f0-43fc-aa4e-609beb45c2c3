@@ -76,7 +76,7 @@ export default function GalleryPage() {
               author: "Quick Response",
               description: "Successfully diagnosed and repaired a burst main water line in under 2 hours, minimizing damage and disruption to the family.",
               tags: ["Emergency", "Professional"],
-              imageSrc: "http://img.b2bpic.net/free-photo/man-fixing-kitchen-sink_53876-13430.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/man-fixing-kitchen-sink_53876-13430.jpg?_wi=3",
               imageAlt: "Emergency plumbing repair completed",
             },
             {
@@ -85,7 +85,7 @@ export default function GalleryPage() {
               author: "Code Compliant",
               description: "Complete gas line installation for a new residential construction project, all inspections passed on first review. Certified and fully insured.",
               tags: ["Installation", "New Build"],
-              imageSrc: "http://img.b2bpic.net/free-photo/close-up-smiley-lawyer-holding-contract_23-2148230817.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/close-up-smiley-lawyer-holding-contract_23-2148230817.jpg?_wi=3",
               imageAlt: "Gas line installation project",
             },
           ]}

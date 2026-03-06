@@ -76,7 +76,7 @@ export default function ServicesPage() {
               author: "Expert Diagnosis",
               description: "Leaky faucets, burst pipes, clogged drains - we diagnose and fix plumbing issues quickly and efficiently. Regular maintenance prevents costly repairs.",
               tags: ["Fast Service", "Reliable"],
-              imageSrc: "http://img.b2bpic.net/free-photo/man-fixing-kitchen-sink_53876-13430.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/man-fixing-kitchen-sink_53876-13430.jpg?_wi=2",
               imageAlt: "Professional plumbing repair work",
             },
             {
@@ -85,7 +85,7 @@ export default function ServicesPage() {
               author: "Code Compliant",
               description: "Safe, certified gas line installation, repair, and inspection. All work meets local codes and safety standards for your peace of mind.",
               tags: ["Certified", "Safety First"],
-              imageSrc: "http://img.b2bpic.net/free-photo/close-up-smiley-lawyer-holding-contract_23-2148230817.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/close-up-smiley-lawyer-holding-contract_23-2148230817.jpg?_wi=2",
               imageAlt: "Gas line safety certification",
             },
           ]}
