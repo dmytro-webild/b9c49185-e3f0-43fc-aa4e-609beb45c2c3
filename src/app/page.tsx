@@ -70,7 +70,7 @@ export default function HomePage() {
           tagAnimation="slide-up"
           background={{ variant: "radial-gradient" }}
           buttons={[
-            { text: "Call Now: 469-410-2657", href: "tel:469-410-2657" },
+            { text: "Get Emergency Service", href: "tel:469-410-2657" },
             { text: "Request Free Estimate", href: "/contact" },
           ]}
           buttonAnimation="slide-up"
