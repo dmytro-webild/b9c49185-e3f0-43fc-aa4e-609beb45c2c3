@@ -1,75 +1,20 @@
 import type { Metadata } from "next";
-import { Halant } from "next/font/google";
 import { Inter } from "next/font/google";
-import { Poppins } from "next/font/google";
 import "./globals.css";
-import { ServiceWrapper } from "@/components/ServiceWrapper";
-import Tag from "@/tag/Tag";
 
-const halant = Halant({
-  variable: "--font-halant",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
-});
-
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-});
-
-const poppins = Poppins({
-  variable: "--font-poppins",
-  subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-});
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Reliable Plumbing in Hunt County, TX | Dynamite Plumbing",
-  description: "Honest pricing, quality workmanship, fast service. Locally owned plumber in Hunt County. 5.0 rating. Call 469-410-2657 for free estimate.",
-  keywords: "plumber Hunt County, plumbing repairs Texas, emergency plumbing, gas line installation, honest pricing",
-  metadataBase: new URL("https://dynamiteplumbingtx.com"),
-  alternates: {
-    canonical: "https://dynamiteplumbingtx.com",
-  },
-  openGraph: {
-    title: "Reliable Plumbing in Hunt County, TX | Dynamite Plumbing",
-    description: "Honest pricing, quality workmanship, fast service. Locally owned plumber in Hunt County. Call for free estimate.",
-    url: "https://dynamiteplumbingtx.com",
-    siteName: "Dynamite Plumbing of Texas",
-    type: "website",
-    images: [
-      {
-        url: "http://img.b2bpic.net/free-photo/man-looking-detail-sitting-floor_259150-58258.jpg",
-        alt: "Dynamite Plumbing - Professional Plumbing Service in Hunt County",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Reliable Plumbing in Hunt County, TX | Dynamite Plumbing",
-    description: "Honest pricing, quality workmanship, fast service. Locally owned plumber. Call 469-410-2657.",
-    images: ["http://img.b2bpic.net/free-photo/man-looking-detail-sitting-floor_259150-58258.jpg"],
-  },
-  robots: {
-    index: true,
-    follow: true,
-  },
-};
+  title: "Dynamite Plumbing - Hunt County, TX",  description: "Reliable plumbing services in Hunt County, TX. Licensed, insured, and available 24/7 for emergencies."};
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <ServiceWrapper>
-        <body
-          className={`${halant.variable} ${inter.variable} ${poppins.variable} antialiased`}
-        >
-          <Tag />
-          {children}
-        
+    <html lang="en">
+      <body className={inter.className}>{children}
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -1437,7 +1382,6 @@ export default function RootLayout({
           }}
         />
       </body>
-      </ServiceWrapper>
     </html>
   );
 }
